@@ -122,7 +122,7 @@ kill -9 <PID>
 ### Module Not Found
 ```bash
 # Add to Python path
-export PYTHONPATH=/home/toby/cyber-mole-local/backend/app:$PYTHONPATH
+export PYTHONPATH=./backend/app:$PYTHONPATH
 ```
 
 ---

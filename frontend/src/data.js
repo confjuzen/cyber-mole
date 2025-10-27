@@ -75,7 +75,7 @@ async function cleanDataML() {
 
 async function saveCleanedDataToDB(data) {
     try {
-        const response = await fetch('http://localhost:5004/api/save-cleaned-data-to-db', {
+        const response = await fetch('http://localhost:5004/save-cleaned-data-to-db', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -91,6 +91,33 @@ async function saveCleanedDataToDB(data) {
         }
     } catch (error) {
         console.error('Error saving to database:', error);
+    }
+}
+
+async function saveCleanedData() {
+    if (!cleanedDataGlobal) {
+        alert('No cleaned data to save');
+        return;
+    }
+
+    try {
+        const response = await fetch('http://localhost:5004/save-cleaned-data', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ data: cleanedDataGlobal })
+        });
+
+        const result = await response.json();
+        if (result.success) {
+            alert('Cleaned data saved to: ' + result.path);
+        } else {
+            alert('Error saving: ' + result.error);
+        }
+    } catch (error) {
+        console.error('Error saving data:', error);
+        alert('Error saving data: ' + error.message);
     }
 }
 

@@ -64,7 +64,7 @@ If you see CORS errors in browser console:
 
 ```bash
 # Verify the data file exists and is valid JSON
-cat /home/toby/cyber-mole-local/training/data_set_1.json | python -m json.tool > /dev/null
+cat ./training/data_set_1.json | python -m json.tool > /dev/null
 
 # If it shows an error, the JSON is invalid
 ```
@@ -78,11 +78,11 @@ cat /home/toby/cyber-mole-local/training/data_set_1.json | python -m json.tool >
 **Fix:**
 ```bash
 # Make sure you're in the right directory
-cd /home/toby/cyber-mole-local/backend/app
+cd ./backend/app
 python app.py
 
 # Or set PYTHONPATH
-export PYTHONPATH=/home/toby/cyber-mole-local/backend/app:$PYTHONPATH
+export PYTHONPATH=./backend/app:$PYTHONPATH
 ```
 
 ### Error: "No module named 'sklearn'"
@@ -217,10 +217,10 @@ python diagnose_ml_issue.py
 ## Still Having Issues?
 
 ### Check These Files Exist:
-- `/home/toby/cyber-mole-local/backend/app/ml_cleaner.py`
-- `/home/toby/cyber-mole-local/backend/app/app.py`
-- `/home/toby/cyber-mole-local/training/data_set_1.json`
-- `/home/toby/cyber-mole-local/backend/requirements.txt`
+- `./backend/app/ml_cleaner.py`
+- `./backend/app/app.py`
+- `./training/data_set_1.json`
+- `./backend/requirements.txt`
 
 ### Verify File Contents:
 ```bash

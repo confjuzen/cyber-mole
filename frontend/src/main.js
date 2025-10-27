@@ -106,7 +106,7 @@ window.addEventListener('resize', () => {
 document.getElementById('simulateBtn').addEventListener('click', async () => {
     const algorithm = document.getElementById('algorithm').value;
     // Call backend /simulate with params
-    const response = await fetch('http://localhost:5004/api/simulate', {
+    const response = await fetch('http://localhost:5004/simulate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ algorithm, robots: 1 })
@@ -126,7 +126,7 @@ document.getElementById('loadDataBtn').addEventListener('click', async () => {
 
 async function loadCleanedData() {
     try {
-        const response = await fetch('http://localhost:5004/api/get-items');
+        const response = await fetch('http://localhost:5004/get-items');
         const data = await response.json();
         if (data && data.length > 0) {
             visualizeDataOnShelves(data);

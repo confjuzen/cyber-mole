@@ -54,13 +54,13 @@ def health_check():
 
 @app.route('/raw-data', methods=['GET'])
 def get_raw_data():
-    with open('/home/toby/cyber-mole-local/training/data_set_1.json', 'r') as f:
+    with open('./training/data_set_1.json', 'r') as f:
         data = json.load(f)
     return jsonify(data)
 
 @app.route('/clean-data', methods=['GET'])
 def get_clean_data():
-    with open('/home/toby/cyber-mole-local/training/data_set_1.json', 'r') as f:
+    with open('./training/data_set_1.json', 'r') as f:
         data = json.dumps(json.load(f))
     # Call Smile /clean
     response = requests.post(f'{SMILE_URL}/clean', json={'data': data})
@@ -111,11 +111,27 @@ def save_cleaned_data_to_db():
     finally:
         session.close()
 
-@app.route('/predict_sales', methods=['POST'])
-def predict_sales():
-    data = request.json
-    response = requests.post(f'{SMILE_URL}/predict', json=data)
-    return response.json()
+@app.route('/get-items', methods=['GET'])
+def get_items():
+    """Get all items from the database for visualization"""
+    session = Session()
+    items = session.query(Item).all()
+    data = [{
+        'id': item.id,
+        'title': item.title,
+        'artist': item.artist,
+        'format': item.format,
+        'genre': item.genre,
+        'price': item.price,
+        'stock_count': item.stock_count
+    } for item in items]
+    session.close()
+    return jsonify(data)
+
+@app.route('/simulate', methods=['POST'])
+def simulate():
+    # Placeholder for simulation logic
+    return jsonify({'sim_id': 1, 'status': 'running'})
 
 @app.route('/ml-clean-data', methods=['GET', 'POST'])
 def ml_clean_data():
@@ -132,7 +148,7 @@ def ml_clean_data():
         if request.method == 'POST':
             data = request.json.get('data')
         else:
-            with open('/home/toby/cyber-mole-local/training/data_set_1.json', 'r') as f:
+            with open('./training/data_set_1.json', 'r') as f:
                 data = json.load(f)
         
         # Ensure data is a list
@@ -166,11 +182,11 @@ def save_cleaned_data():
     """Save cleaned data to a new file"""
     try:
         cleaned_data = request.json.get('data')
-        output_path = '/home/toby/cyber-mole-local/training/cleaned_data.json'
-        
+        output_path = './training/cleaned_data.json'
+
         with open(output_path, 'w') as f:
             json.dump(cleaned_data, f, indent=2)
-        
+
         return jsonify({
             'message': 'Cleaned data saved successfully',
             'path': output_path,

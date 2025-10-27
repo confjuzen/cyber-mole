@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Test script for ML data cleaner"""
 import sys
-sys.path.insert(0, '/home/toby/cyber-mole-local/backend/app')
+sys.path.insert(0, './backend/app')
 
 from ml_cleaner import MLDataCleaner
 import json
 
 # Load test data
-with open('/home/toby/cyber-mole-local/training/data_set_1.json', 'r') as f:
+with open('./training/data_set_1.json', 'r') as f:
     data = json.load(f)
 
 print(f"Original data: {len(data)} records")
@@ -72,7 +72,7 @@ print("ML Cleaning Test Complete!")
 print("=" * 80)
 
 # Save cleaned data
-output_path = '/home/toby/cyber-mole-local/training/cleaned_data_test.json'
+output_path = './training/cleaned_data_test.json'
 with open(output_path, 'w') as f:
     json.dump(cleaned_data, f, indent=2)
 print(f"\nCleaned data saved to: {output_path}")

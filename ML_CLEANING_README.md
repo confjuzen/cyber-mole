@@ -75,7 +75,7 @@ Saves cleaned data to file.
 ```json
 {
   "message": "Cleaned data saved successfully",
-  "path": "/home/toby/cyber-mole-local/training/cleaned_data.json",
+  "path": "./training/cleaned_data.json",
   "success": true
 }
 ```
