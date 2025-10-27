@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Cleaning and Visualization</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Back to About</a> | <a href="route.html">Go to Simulator</a>
+    </nav>
+    <div class="container">
+        <h1>ML-Powered Data Cleaning</h1>
+        <div style="text-align: center; margin: 20px;">
+            <button id="cleanBtn" class="btn-primary">
+                Clean Data with ML
+            </button>
+            <button id="saveBtn" class="btn-secondary" disabled>
+                Save Cleaned Data
+            </button>
+            <button id="simulateBtn" class="btn-secondary" disabled>
+                Go to Simulation
+            </button>
+        </div>
+        <div id="reportSection" class="report-section">
+            <h3>Cleaning Report</h3>
+            <div id="reportContent"></div>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <h2>Raw Data (First 10 records)</h2>
+                <div id="rawData">Loading...</div>
+            </div>
+            <div class="column">
+                <h2>Visualization</h2>
+                <div id="chartContainer">
+                    <canvas id="salesChart"></canvas>
+                </div>
+            </div>
+            <div class="column">
+                <h2>Clean Data (First 10 records)</h2>
+                <div id="cleanData">Click "Clean Data with ML" to see results</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/src/data.js"></script>
+</body>
+</html>

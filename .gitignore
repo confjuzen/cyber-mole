@@ -1,0 +1,113 @@
+# Build artifacts
+/target/
+/dist/
+/build/
+/out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Vite
+.vite/
+
+# Coverage reports
+coverage/
+.coverage
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Documentation builds
+docs/_build/
+.readthedocs.yml
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+.pytest_cache/
+.cache/
+htmlcov/
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock

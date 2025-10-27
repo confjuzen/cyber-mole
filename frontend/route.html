@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroMedia Warehouse Simulator</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body class="fullscreen">
+    <nav>
+        <a href="index.html">Back to About</a> | <a href="data.html">Go to Data</a>
+    </nav>
+    <div id="controls">
+        <button id="uploadBtn">Upload Dataset</button>
+        <button id="simulateBtn">Start Simulation</button>
+        <button id="loadDataBtn">Load Cleaned Data</button>
+        <select id="algorithm">
+            <option value="baseline">Baseline (A*)</option>
+            <option value="ga">Genetic Algorithm</option>
+        </select>
+        <button id="trainModel">Train Model</button>
+    </div>
+    <canvas id="warehouseCanvas"></canvas>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

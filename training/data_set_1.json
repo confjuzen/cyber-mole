@@ -1,0 +1,830 @@
+[
+  {
+    "artist": "The Beatles",
+    "title": "Abbey Road",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "Bob Dylan",
+    "title": "Highway 61 Revisited",
+    "genre": "Folk Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Miles Davis",
+    "title": "Kind of Blue",
+    "genre": "Jazz",
+    "format": "CD"
+  },
+  {
+    "artist": "The Rolling Stones",
+    "title": "Exile on Main St.",
+    "genre": "Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Nirvana",
+    "title": "Nevermind",
+    "genre": "Grunge",
+    "format": "CD"
+  },
+  {
+    "artist": "Pink Floyd",
+    "title": "The Dark Side of the Moon",
+    "genre": "Progressive Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Led Zeppelin",
+    "title": "IV",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "David Bowie",
+    "title": "The Rise and Fall of Ziggy Stardust",
+    "genre": "Glam Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "OK Computer",
+    "genre": "Alternative Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "The Clash",
+    "title": "London Calling",
+    "genre": "Punk Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Queen",
+    "title": "A Night at the Opera",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "Bruce Springsteen",
+    "title": "Born to Run",
+    "genre": "Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Jimi Hendrix",
+    "title": "Are You Experienced",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "The Who",
+    "title": "Who's Next",
+    "genre": "Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "U2",
+    "title": "The Joshua Tree",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "R.E.M.",
+    "title": "Automatic for the People",
+    "genre": "Alternative Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "Oasis",
+    "title": "Definitely Maybe",
+    "genre": "Britpop",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "The Smiths",
+    "title": "The Queen Is Dead",
+    "genre": "Indie Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Ten",
+    "genre": "Grunge",
+    "format": "CD"
+  },
+  {
+    "artist": "Green Day",
+    "title": "Dookie",
+    "genre": "Punk Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "The Doors",
+    "title": "Light My Fire",
+    "genre": [
+      "Rock",
+      "Psychedelic"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "some-band",
+    "title": "Hit Single",
+    "genre": [
+      "rok",
+      "pop"
+    ],
+    "format": "vynil"
+  },
+  {
+    "artist": "SomeBand",
+    "title": "Great Album",
+    "genre": [
+      "Rock",
+      "Alternative"
+    ],
+    "format": "Cd's"
+  },
+  {
+    "artist": "Classic Group",
+    "title": "Old Tune",
+    "genre": [
+      "Jazz"
+    ],
+    "format": "casset"
+  },
+  {
+    "artist": "Retro Act",
+    "title": "Vintage Track",
+    "genre": [
+      "Soul",
+      "R&B"
+    ],
+    "format": "8Trac"
+  },
+  {
+    "artist": "Indie Crew",
+    "title": "Underground Hit",
+    "genre": [
+      "Indie",
+      "Alternative"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Funk Masters",
+    "title": "Groovy Beat",
+    "genre": [
+      "Funk",
+      "Disco"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Punk Rebels",
+    "title": "Rebel Yell",
+    "genre": [
+      "Punk"
+    ],
+    "format": "cassette"
+  },
+  {
+    "artist": "Metal Heads",
+    "title": "Heavy Riff",
+    "genre": [
+      "Metal",
+      "Hard Rock"
+    ],
+    "format": "8 track"
+  },
+  {
+    "artist": "Blues Legend",
+    "title": "Soulful Blues",
+    "genre": [
+      "Blues"
+    ],
+    "format": "recod"
+  },
+  {
+    "artist": "Pop Icons",
+    "title": "Catchy Song",
+    "genre": [
+      "Pop",
+      "Dance"
+    ],
+    "format": "digital"
+  },
+  {
+    "artist": "Reggae Vibes",
+    "title": "Island Rhythm",
+    "genre": [
+      "Reggae",
+      "Ska"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Country Stars",
+    "title": "Heartland Tune",
+    "genre": [
+      "Country"
+    ],
+    "format": "vynils"
+  },
+  {
+    "artist": "Hip Hop Crew",
+    "title": "Rhyme Master",
+    "genre": [
+      "Hip Hop",
+      "Rap"
+    ],
+    "format": "cassette"
+  },
+  {
+    "artist": "Electronic Dream",
+    "title": "Synth Wave",
+    "genre": [
+      "Electronic",
+      "Synthpop"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Folk Trio",
+    "title": "Acoustic Gem",
+    "genre": [
+      "Folk",
+      "Acoustic"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "World Beat",
+    "title": "Global Groove",
+    "genre": [
+      "World",
+      "Fusion"
+    ],
+    "format": "casset"
+  },
+  {
+    "artist": "New Wave Band",
+    "title": "80s Hit",
+    "genre": [
+      "New Wave",
+      "Pop Rock"
+    ],
+    "format": "8Trac"
+  },
+  {
+    "artist": "Grunge Icons",
+    "title": "Seattle Sound",
+    "genre": [
+      "Grunge",
+      "Rock"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Opera Stars",
+    "title": "Classical Aria",
+    "genre": [
+      "Opera",
+      "Classical"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Green Day",
+    "title": "Dookie",
+    "genre": "Punk Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "green-day",
+    "title": "Dookie",
+    "genre": "Punk Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "GreenDay",
+    "title": "dookie",
+    "genre": [
+      "Punk Rock"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Greenday",
+    "title": "Dookie Album",
+    "genre": "Punk Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "green day",
+    "title": "Dookie",
+    "genre": [
+      "Punk",
+      "Rock"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "The Beatles",
+    "title": "Abbey Road",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "the-beatles",
+    "title": "abbey road",
+    "genre": "rock",
+    "format": "CD"
+  },
+  {
+    "artist": "Beatles",
+    "title": "AbbeyRoad",
+    "genre": [
+      "Rock"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Nirvana",
+    "title": "Nevermind",
+    "genre": "Grunge",
+    "format": "CD"
+  },
+  {
+    "artist": "nirvana",
+    "title": "nevermind",
+    "genre": "grunge",
+    "format": "CD"
+  },
+  {
+    "artist": "NirvanaBand",
+    "title": "Nevermind Album",
+    "genre": [
+      "Grunge",
+      "Alternative"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Pink Floyd",
+    "title": "The Dark Side of the Moon",
+    "genre": "Progressive Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "pink-floyd",
+    "title": "dark side of the moon",
+    "genre": "progressive rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "PinkFloyd",
+    "title": "DarkSideMoon",
+    "genre": [
+      "Progressive Rock"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Led Zeppelin",
+    "title": "IV",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "led-zeppelin",
+    "title": "iv",
+    "genre": "rock",
+    "format": "CD"
+  },
+  {
+    "artist": "LedZeppelin",
+    "title": "Led Zeppelin IV",
+    "genre": [
+      "Rock",
+      "Hard Rock"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "David Bowie",
+    "title": "The Rise and Fall of Ziggy Stardust",
+    "genre": "Glam Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "david-bowie",
+    "title": "ziggy stardust",
+    "genre": "glam rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "DavidBowie",
+    "title": "RiseFallZiggy",
+    "genre": [
+      "Glam Rock"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "OK Computer",
+    "genre": "Alternative Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "radiohead",
+    "title": "ok computer",
+    "genre": "alternative rock",
+    "format": "CD"
+  },
+  {
+    "artist": "RadioHead",
+    "title": "OKComputer",
+    "genre": [
+      "Alternative Rock"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "The Clash",
+    "title": "London Calling",
+    "genre": "Punk Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "the-clash",
+    "title": "london calling",
+    "genre": "punk rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "TheClash",
+    "title": "LondonCalling",
+    "genre": [
+      "Punk Rock"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Queen",
+    "title": "A Night at the Opera",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "queen",
+    "title": "night at the opera",
+    "genre": "rock",
+    "format": "CD"
+  },
+  {
+    "artist": "QueenBand",
+    "title": "OperaNight",
+    "genre": [
+      "Rock"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Bruce Springsteen",
+    "title": "Born to Run",
+    "genre": "Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "bruce-springsteen",
+    "title": "born to run",
+    "genre": "rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "BruceSpringsteen",
+    "title": "BornToRun",
+    "genre": [
+      "Rock"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "Jimi Hendrix",
+    "title": "Are You Experienced",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "jimi-hendrix",
+    "title": "are you experienced",
+    "genre": "rock",
+    "format": "CD"
+  },
+  {
+    "artist": "JimiHendrix",
+    "title": "Experienced",
+    "genre": [
+      "Rock",
+      "Psychedelic"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "The Who",
+    "title": "Who's Next",
+    "genre": "Rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "the-who",
+    "title": "whos next",
+    "genre": "rock",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "TheWho",
+    "title": "WhosNext",
+    "genre": [
+      "Rock"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "U2",
+    "title": "The Joshua Tree",
+    "genre": "Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "u2",
+    "title": "joshua tree",
+    "genre": "rock",
+    "format": "CD"
+  },
+  {
+    "artist": "U2Band",
+    "title": "JoshuaTree",
+    "genre": [
+      "Rock"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "R.E.M.",
+    "title": "Automatic for the People",
+    "genre": "Alternative Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "r.e.m.",
+    "title": "automatic for the people",
+    "genre": "alternative rock",
+    "format": "CD"
+  },
+  {
+    "artist": "REM",
+    "title": "AutoPeople",
+    "genre": [
+      "Alternative Rock"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Oasis",
+    "title": "Definitely Maybe",
+    "genre": "Britpop",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "oasis",
+    "title": "definitely maybe",
+    "genre": "britpop",
+    "format": "Vinyl"
+  },
+  {
+    "artist": "OasisBand",
+    "title": "DefinitelyMaybe",
+    "genre": [
+      "Britpop"
+    ],
+    "format": "CD"
+  },
+  {
+    "artist": "The Smiths",
+    "title": "The Queen Is Dead",
+    "genre": "Indie Rock",
+    "format": "CD"
+  },
+  {
+    "artist": "the-smiths",
+    "title": "queen is dead",
+    "genre": "indie rock",
+    "format": "CD"
+  },
+  {
+    "artist": "TheSmiths",
+    "title": "QueenDead",
+    "genre": [
+      "Indie Rock"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Pearl Jam",
+    "title": "Ten",
+    "genre": "Grunge",
+    "format": "CD"
+  },
+  {
+    "artist": "pearl-jam",
+    "title": "ten",
+    "genre": "grunge",
+    "format": "CD"
+  },
+  {
+    "artist": "PearlJam",
+    "title": "TenAlbum",
+    "genre": [
+      "Grunge"
+    ],
+    "format": "Vinyl"
+  },
+  {
+    "artist": "Green Day",
+    "title": "Dookie",
+    "genre": "Punk Rock",
+    "format": "casset"
+  },
+  {
+    "artist": "green-day",
+    "title": "Dookie",
+    "genre": "Punk Rock",
+    "format": "reel to reel"
+  },
+  {
+    "artist": "GreenDay",
+    "title": "dookie",
+    "genre": "Punk Rock",
+    "format": "viny"
+  },
+  {
+    "artist": "Greenday",
+    "title": "Dookie Album",
+    "genre": "Punk Rock",
+    "format": "recod"
+  },
+  {
+    "artist": "green day",
+    "title": "Dookie",
+    "genre": "Punk Rock",
+    "format": "8Trac"
+  },
+  {
+    "artist": "The Beatles",
+    "title": "Abbey Road",
+    "genre": "Rock",
+    "format": "casset"
+  },
+  {
+    "artist": "the-beatles",
+    "title": "abbey road",
+    "genre": "rock",
+    "format": "reel to reel"
+  },
+  {
+    "artist": "Beatles",
+    "title": "AbbeyRoad",
+    "genre": "Rock",
+    "format": "viny"
+  },
+  {
+    "artist": "Nirvana",
+    "title": "Nevermind",
+    "genre": "Grunge",
+    "format": "recod"
+  },
+  {
+    "artist": "nirvana",
+    "title": "nevermind",
+    "genre": "grunge",
+    "format": "8Trac"
+  },
+  {
+    "artist": "NirvanaBand",
+    "title": "Nevermind Album",
+    "genre": "Grunge",
+    "format": "casset"
+  },
+  {
+    "artist": "Pink Floyd",
+    "title": "The Dark Side of the Moon",
+    "genre": "Progressive Rock",
+    "format": "reel to reel"
+  },
+  {
+    "artist": "pink-floyd",
+    "title": "dark side of the moon",
+    "genre": "progressive rock",
+    "format": "viny"
+  },
+  {
+    "artist": "PinkFloyd",
+    "title": "DarkSideMoon",
+    "genre": "Progressive Rock",
+    "format": "recod"
+  },
+  {
+    "artist": "Led Zeppelin",
+    "title": "IV",
+    "genre": "Rock",
+    "format": "8Trac"
+  },
+  {
+    "artist": "led-zeppelin",
+    "title": "iv",
+    "genre": "rock",
+    "format": "casset"
+  },
+  {
+    "artist": "LedZeppelin",
+    "title": "Led Zeppelin IV",
+    "genre": "Rock",
+    "format": "reel to reel"
+  },
+  {
+    "artist": "David Bowie",
+    "title": "The Rise and Fall of Ziggy Stardust",
+    "genre": "Glam Rock",
+    "format": "viny"
+  },
+  {
+    "artist": "david-bowie",
+    "title": "ziggy stardust",
+    "genre": "glam rock",
+    "format": "recod"
+  },
+  {
+    "artist": "DavidBowie",
+    "title": "RiseFallZiggy",
+    "genre": "Glam Rock",
+    "format": "8Trac"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "OK Computer",
+    "genre": "Alternative Rock",
+    "format": "casset"
+  },
+  {
+    "artist": "radiohead",
+    "title": "ok computer",
+    "genre": "alternative rock",
+    "format": "reel to reel"
+  },
+  {
+    "artist": "RadioHead",
+    "title": "OKComputer",
+    "genre": "Alternative Rock",
+    "format": "viny"
+  },
+  {
+    "artist": "The Clash",
+    "title": "London Calling",
+    "genre": "Punk Rock",
+    "format": "recod"
+  },
+  {
+    "artist": "the-clash",
+    "title": "london calling",
+    "genre": "punk rock",
+    "format": "8Trac"
+  },
+  {
+    "artist": "TheClash",
+    "title": "LondonCalling",
+    "genre": "Punk Rock",
+    "format": "casset"
+  },
+  {
+    "artist": "Queen",
+    "title": "A Night at the Opera",
+    "genre": "Rock",
+    "format": "reel to reel"
+  },
+  {
+    "artist": "queen",
+    "title": "night at the opera",
+    "genre": "rock",
+    "format": "viny"
+  },
+  {
+    "artist": "QueenBand",
+    "title": "OperaNight",
+    "genre": "Rock",
+    "format": "recod"
+  }
+]
